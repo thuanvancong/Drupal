@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="224px" height="59px" viewBox="0 0 224 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>C593A72A-50AC-4278-940E-E17DD5341B3D@1.00x</title>
+    <defs>
+        <linearGradient x1="-7.40996376%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#C8AA37" offset="27.3027753%"></stop>
+            <stop stop-color="#FFCB00" stop-opacity="0" offset="54.271536%"></stop>
+            <stop stop-color="#C0A53C" offset="79.878715%"></stop>
+            <stop stop-color="#242424" offset="99.9460406%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.2-Home---Option-2" transform="translate(-568.000000, -654.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Layer-6" transform="translate(293.000000, 654.675332)">
+                <g id="Group-7" transform="translate(275.000000, 0.000000)">
+                    <path d="M223.602531,0 L28.773271,0 L0.39750013,58 L195.225521,58 L223.602531,0 Z M220.397,2 L193.977,56 L3.602,56 L30.021,2 L220.397,2 Z" id="Stroke-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
