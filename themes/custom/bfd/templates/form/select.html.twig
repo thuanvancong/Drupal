@@ -10,7 +10,7 @@
  * @see template_preprocess_select()
  */
 #}
-{% spaceless %}
+<div>
   <select{{ attributes.addClass('custom-select') }}>
     {% for option in options %}
       {% if option.type == 'optgroup' %}
@@ -24,4 +24,6 @@
       {% endif %}
     {% endfor %}
   </select>
-{% endspaceless %}
+</div>
+
+    

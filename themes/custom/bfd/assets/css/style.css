@@ -98,7 +98,7 @@ body {
   line-height: 1.35;
   color: #6c757d;
   text-align: left;
-  background-color: #fff;
+  background-color: #efeeec;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -18806,12 +18806,12 @@ ol.breadcrumb .breadcrumb-item {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #FFF;
+  background-color: #efeeec;
 }
-.header .logo {
+.header .logo, .footer .logo {
   max-width: 150px;
 }
-.header img{
+.header img, .footer img{
   width: 100%;
   display: block;
 }
@@ -18936,4 +18936,128 @@ ol.breadcrumb .breadcrumb-item {
 
 .section-fullscreen {
   min-height: calc(100vh - 85px);
+}
+
+/** @ Coder giành cho page khách home page 
+ * @ page product 
+ */
+.block-ongbau .page-title {
+  margin-top: 20px;
+  border-left: 20px solid #ffcb05;
+}
+
+.ongbauview-mode {
+  height: 500px;
+}
+
+.app-footer {
+  border-top: 2px solid #ffcb05;
+  background-color: #efeeec;
+  padding: 30px 0;
+}
+
+.title-h2 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.title-h2 h2 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700px;
+  line-height: 26.66px;
+  border-bottom: none;
+}
+
+footer .region-footer-left .block ul a {
+  color: inherit;
+}
+
+footer .region-footer-left .block ul li:nth-child(-n+4):before {
+  display: none;
+}
+
+footer .nav-item {
+  padding: 0;
+}
+footer .region-footer-left .block ul li {
+  margin-left: 0;
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Roboto Condensed", monospace;
+  font-weight: 400;
+  line-height: 20.7px;
+  color: #6c757d;
+}
+.block-contact {
+  font-size: 18px;
+  font-family: "Roboto Condensed", monospace;
+  font-weight: 400;
+  line-height: 20.7px;
+  color: #6c757d;
+}
+
+.text-block {
+    margin-bottom: 10px;
+}
+.text-block i.fa {
+    padding-right: 5px;
+}
+
+.copy-right h2 {
+  display: none;
+}
+
+.copy-right .field__item {
+  margin-top: 59px;
+}
+.form-ongbau {
+  width: 100%;
+}
+
+.category-name {
+  background-color: #ffcb05;
+  text-align: center; 
+  padding: 10px;;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-weight: 400;
+  white-space: nowrap;
+  color: #000
+}
+
+.swiper-image img {
+  height: 290px;
+  width: 288px;
+}
+
+.field-group {
+  text-align: center;
+  font-family: "Yeseva One",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+
+.field-group .views-field-field-price {
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  font-weight: 700;
+  color: #930;
+}
+
+.field-group .field-content a {
+  color: inherit;
+}
+
+form#views-exposed-form-page-product-page-1 {
+  display: none;
+}
+
+.category-item {
+  cursor: pointer;
+}
+
+.category-item.active .category-name {
+  color:  red;
+  background-color: #dedede;
 }

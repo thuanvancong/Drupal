@@ -1,0 +1,2 @@
+/* Javascript in header */
+;

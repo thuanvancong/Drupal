@@ -7,6 +7,7 @@ global-styling:
   js:
     //stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js: {}
     assets/js/global.js: {}
+    assets/js/scripts.js: {}
   dependencies:
     - core/popperjs
     - core/drupal

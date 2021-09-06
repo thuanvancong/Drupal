@@ -38,7 +38,15 @@
       <title>{{ head_title|safe_join(' | ') }}</title>
       <css-placeholder token="{{ placeholder_token }}">
         <js-placeholder token="{{ placeholder_token }}">
-        <style> @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');</style></head>
+        <style> @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');</style>
+        <link rel="stylesheet" href="/drupal/themes/custom/bfd/assets/css/font-awesome.min.css">
+        <!-- Link Swiper's CSS -->
+      <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper/swiper-bundle.min.css"
+      />
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
         <body{{ attributes.addclass(body_classes) }}>
           {#
       Keyboard navigation/accessibility link to main content section in
@@ -50,5 +58,7 @@
           {{ page_top }}
           {{ page }}
           {{ page_bottom }}
-          <js-bottom-placeholder token="{{ placeholder_token }}"></body>
+          <js-bottom-placeholder token="{{ placeholder_token }}">
+          <!-- Xu ly Event Website -->
+          </body>
         </html>

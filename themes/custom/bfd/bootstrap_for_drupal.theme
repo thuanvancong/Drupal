@@ -6,7 +6,6 @@
  */
 
 use Drupal\Core\Form\FormStateInterface;
-
 /**
  * Site name, logo and slogan global variable.
  */
@@ -142,10 +141,25 @@ function bootstrap_for_drupal_form_system_theme_settings_alter(&$form, FormState
 }
  
 function bootstrap_for_drupal_theme_suggestions_field_alter(&$suggestions, $variables) {
-  //dd($variables['element']);
-  //echo 'debug_'. $variables['element']['#view_mode'];;
   $suggestions[] = 'field__' . 
     $variables['element']['#entity_type']. '__' .
     $variables['element']['#field_name'] . '__' . 
     $variables['element']['#view_mode'];
 }
+
+
+function bootstrap_for_drupal_preprocess_views_view(&$variables) {
+  //dd($variables['exposed']);
+}
+function bootstrap_for_drupal_preprocess_views_view_list(&$variables) {
+ 
+}
+function bootstrap_for_drupal_preprocess_views_view_fields(&$variables) {
+ 
+}
+function bootstrap_for_drupal_preprocess_views_view_field(&$variables) {
+}
+
+
+
+

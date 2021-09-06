@@ -803,7 +803,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'db_durpal',
+  'database' => 'db_drupal',
   'username' => 'root',
   'password' => '',
   'prefix' => '',
@@ -813,3 +813,8 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_yQN86KSTKFutPv09vYTRT8O-nRUJjAN63RYNnkLSglrks-N2HSplv3K89tTiD9IP_wu3I_Ra3w/sync';
+
+$config['system.logging']['error_level'] = 'verbose';
+
+
+
